@@ -79,14 +79,37 @@ public class Main {
 //            System.out.println("x is not zero");
 //        }
 
-        // initialising variables x and y and assigning values
-        int x = 15, y = 24;
-        // if x and y are even numbers print statement
-        if (x % 2 == 0 && y % 2 ==0){
-            System.out.println("x and y are even numbers");
-        }else{
-            // if x or y are not even numbers print statement
-            System.out.println("one of these is not an even number!");
+//        // initialising variables x and y and assigning values
+//        int x = 15, y = 24;
+//        // if x and y are even numbers print statement
+//        if (x % 2 == 0 && y % 2 ==0){
+//            System.out.println("x and y are even numbers");
+//        }else{
+//            // if x or y are not even numbers print statement
+//            System.out.println("one of these is not an even number!");
+//        }
+
+
+//        for (int i = 0; i < 10; i++){
+//            System.out.println("i = " + i);
+//        }
+
+//        int i = 0;
+//        while (i< 10){
+//            System.out.println("i = " + i);
+//            i++;
+//        }
+
+//        int i = 0;
+//        do{
+//            System.out.println("i = " + i);
+//            i++;
+//
+//        }while (i< 10);
+
+        for (int i = 0, j = 10; i < j; i++, j--){
+            System.out.println("i = " + i);
+            System.out.println("j = " + j);
         }
 
     }}
