@@ -33,17 +33,60 @@ public class Main {
 //        // add one to the current value of num5 which is now 9 so it adds 1 then prints 10
 //        System.out.println(++num5);
 
-        // create scanner object
-        Scanner myObj = new Scanner(System.in);
-        // get the input for the user
-        System.out.println("Enter your first name ");
-        // reading the console input and assigning it to firstName
-        String firstName = myObj.nextLine();
-        // get the input for the user
-        System.out.println("Enter your last name ");
-        // reading the console input and assigning it to lastName
-        String lastName = myObj.nextLine();
-        // printing out the full name by adding firstname and lastname together
-        System.out.println("Your full name is " + firstName + " " + lastName);
+//        // create scanner object
+//        Scanner myObj = new Scanner(System.in);
+//        // get the input for the user
+//        System.out.println("Enter your first name ");
+//        // reading the console input and assigning it to firstName
+//        String firstName = myObj.nextLine();
+//        // get the input for the user
+//        System.out.println("Enter your last name ");
+//        // reading the console input and assigning it to lastName
+//        String lastName = myObj.nextLine();
+//        // printing out the full name by adding firstname and lastname together
+//        System.out.println("Your full name is " + firstName + " " + lastName);
+
+//        // create a string array of instructor names
+//        String[] namesOfInstructors = {"Adam", "Victoria", "Earl", "Selvyn"};
+//        // for loop which prints out hell and their name for each name in the array
+//        for (String nameOfInstructor : namesOfInstructors) {
+//            System.out.printf("Hello %s\n", nameOfInstructor);
+
+        //}
+//        // initialising a and y variables and assigning values
+//        int x = 3, y = 5;
+//        // if loop if x is greater than 0 move to next if statement then if y is less than x print y is less than x
+//        if (x >= 0){
+//            if (y < x){
+//                System.out.println("y is less than x");
+//            }else{
+//                // if not print y is greater than x
+//                System.out.println("y is greater than x");
+//            }
+//
+//        }else {
+//            // if x is less than 0
+//            System.out.println("x is negative");
+//        }
+
+//        // initialising variable x and assigning the value 7
+//        int x = 7;
+//        // if x is == to 0 print statement
+//        if (x == 0){
+//            System.out.println("x is zero");
+//        }else{
+//            // if x is not 0 print statement
+//            System.out.println("x is not zero");
+//        }
+
+        // initialising variables x and y and assigning values
+        int x = 15, y = 24;
+        // if x and y are even numbers print statement
+        if (x % 2 == 0 && y % 2 ==0){
+            System.out.println("x and y are even numbers");
+        }else{
+            // if x or y are not even numbers print statement
+            System.out.println("one of these is not an even number!");
         }
-    }
+
+    }}
